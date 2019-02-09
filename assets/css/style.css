@@ -9,4 +9,8 @@ body {
 }
 .jumbotron {
     background-color: #8C699F;
+    margin-bottom: -5px;
+}
+.navbar {
+    border-radius: 5px;
 }
