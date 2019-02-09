@@ -1,0 +1,12 @@
+body {
+    background-image: url(../images/milky-way.jpg);
+    background-size: cover;
+    background-color: #483d8b;
+    font-family: 'Lato', sans-serif;
+}
+.header {
+    font-family: 'Michroma', sans-serif;
+}
+.jumbotron {
+    background-color: #8C699F;
+}
