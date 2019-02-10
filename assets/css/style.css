@@ -1,44 +1,74 @@
 body {
+
     background-image: url(../images/milky-way.jpg);
     background-size: cover;
     background-color: #483d8b;
     font-family: 'Lato', sans-serif;
+
 }
+
 .header {
+
     font-family: 'Michroma', sans-serif;
+
 }
+
 .jumbotron {
+
     background-color: #8C699F;
     margin-bottom: -2px;
     padding-bottom: 19px;
     padding-top: 35px;
+
 }
+
 .links {
+
     text-align: right;
+
 }
+
 .badge {
+
     margin-left: 2px;
+
 }
+
 .navbar {
+
     border-radius: 5px;
+
 }
-img {
+
+.portrait {
+
     border-radius: 5px;
-    margin: 10px;
+    margin-top: 15px;
+    margin-bottom: 11px;
+
 }
+
 .about-me {
+
     background-color: #ababab;
     border-radius: 5px;
+
 }
+
 .about-text {
+
     padding-left: 56px;
-    padding-top: 10px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+
 }
+
 @media (max-width: 1199px) {
 
     .about-text {
         padding-left: 87px;
     }
+
 }
 @media (max-width: 991px) {
 
@@ -48,13 +78,15 @@ img {
     .header {
         font-size: 45px;
     }
+
 }
 @media (max-width: 767px) {
 
     .about-text {
-        padding-left: 26px;
+        padding-left: 16px;
     }
     .header {
         font-size: 29px;
     }
+
 }
