@@ -9,8 +9,23 @@ body {
 }
 .jumbotron {
     background-color: #8C699F;
-    margin-bottom: -5px;
+    margin-bottom: -2px;
 }
 .navbar {
     border-radius: 5px;
+}
+img {
+    border-radius: 5px;
+    margin: 10px;
+}
+.about-me {
+    background-color: #ababab;
+    border-radius: 5px;
+}
+.about-pic {
+    /* float: left; */
+}
+.about-text {
+    padding-left: 52px;
+    padding-top: 10px;
 }
