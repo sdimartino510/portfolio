@@ -63,6 +63,13 @@ body {
 
 }
 
+.about-links {
+
+    text-align: center;
+    margin-right: 63px;
+
+}
+
 @media (max-width: 1199px) {
 
     .about-text {
