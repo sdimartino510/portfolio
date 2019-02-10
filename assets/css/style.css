@@ -10,6 +10,14 @@ body {
 .jumbotron {
     background-color: #8C699F;
     margin-bottom: -2px;
+    padding-bottom: 19px;
+    padding-top: 35px;
+}
+.links {
+    text-align: right;
+}
+.badge {
+    margin-left: 2px;
 }
 .navbar {
     border-radius: 5px;
@@ -22,10 +30,31 @@ img {
     background-color: #ababab;
     border-radius: 5px;
 }
-.about-pic {
-    /* float: left; */
-}
 .about-text {
-    padding-left: 52px;
+    padding-left: 56px;
     padding-top: 10px;
+}
+@media (max-width: 1199px) {
+
+    .about-text {
+        padding-left: 87px;
+    }
+}
+@media (max-width: 991px) {
+
+    .about-text {
+        padding-left: 128px;
+    }
+    .header {
+        font-size: 45px;
+    }
+}
+@media (max-width: 767px) {
+
+    .about-text {
+        padding-left: 26px;
+    }
+    .header {
+        font-size: 29px;
+    }
 }
