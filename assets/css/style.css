@@ -50,7 +50,6 @@ body {
 
 .about-me {
 
-    background-color: #ababab;
     border-radius: 5px;
 
 }
@@ -68,6 +67,23 @@ body {
     text-align: center;
     margin-right: 63px;
 
+}
+
+.portfolio {
+
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+footer {
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
 }
 
 @media (max-width: 1199px) {
