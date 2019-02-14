@@ -56,16 +56,17 @@ body {
 
 .about-text {
 
-    padding-left: 56px;
-    padding-top: 12px;
+    padding-left: 0px !important;
+    padding-top: 14px;
     padding-bottom: 11px;
+    margin-left: -36px;
 
 }
 
 .about-links {
 
     text-align: center;
-    margin-right: 63px;
+    margin-right: 19px;
 
 }
 
@@ -89,7 +90,11 @@ footer {
 @media (max-width: 1199px) {
 
     .about-text {
-        padding-left: 87px;
+        padding-left: 60px !important;
+        padding-right: 0px;
+    }
+    .about-links {
+        margin-right: 0px;
     }
 
 }
@@ -97,7 +102,10 @@ footer {
 @media (max-width: 991px) {
 
     .about-text {
-        padding-left: 128px;
+        padding-left: 140px !important;
+    }
+    .about-links {
+        margin-right: -4px;
     }
     .header {
         font-size: 45px;
@@ -108,10 +116,23 @@ footer {
 @media (max-width: 767px) {
 
     .about-text {
-        padding-left: 16px;
+        padding-left: 53px !important;
+        margin-top: -10px;
+        padding-right: 0px;
+    }
+    .about-links {
+        margin-right: -14px;
     }
     .header {
         font-size: 29px;
+    }
+
+}
+
+@media (max-width: 575px) {
+
+    .about-links {
+        margin-right: 10px;
     }
 
 }
@@ -122,7 +143,7 @@ footer {
         font-size: 25px;
     }
     .about-links {
-        margin-right: 15px;
+        margin-right: -3px;
     }
 
 }
