@@ -44,18 +44,25 @@
                     <div class="col-md-12">
                         <form>
                             <div class="form-group">
-                                <label for="inputName1">Name</label>
-                                <input type="name" class="form-control" id="inputName1" placeholder="Your name">
+                                <label for="inputName">Name</label>
+                                <input type="name" class="form-control" id="inputName" placeholder="Your name" required>
                             </div>
                             <div class="form-group">
-                                <label for="inputEmail1">Email</label>
-                                <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp" placeholder="foo@foo.com">
+                                <label for="inputEmail">Email</label>
+                                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Your e-mail address" required>
                             </div>
                             <div class="form-group">
-                                <!--How to make non-resizable?-->
-                                <label for="inputMessage1">Message</label>
-                                <textarea class="form-control" rows="5" id="inputMessage1"></textarea>
+                                <label for="inputSubject">Subject</label>
+                                <input type="subject" class="form-control" id="inputSubject" placeholder="Subject of your message" required>
                             </div>
+                            <div class="form-group">
+                                <label for="inputMessage">Message</label>
+                                <textarea class="form-control" rows="5" id="inputMessage"></textarea>
+                            </div>
+                            <p>
+                                *All fields are required
+                            </p>
+                            <br>
                             <button type="submit" class="btn btn-outline-light">Submit</button>
                         </form>
                     </div>
