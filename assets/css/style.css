@@ -22,6 +22,26 @@ body {
 
 }
 
+.header-nav {
+
+    margin-top: 5px;
+    margin-bottom: -19px;
+
+}
+
+.linked-in {
+
+    padding-left: 10px;
+
+}
+
+.right-nav {
+
+    position: relative;
+    top: -28px;
+
+}
+
 .links {
 
     text-align: right;
