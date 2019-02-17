@@ -48,5 +48,8 @@ firebase.initializeApp(config);
     $("#inputEmail").val("");
     $("#inputSubject").val("");
     $("#inputMessage").val("");
+
+    swal("Contact Information Sent!", "I'll contact you as soon as possible.", "success");
+
   });
   
