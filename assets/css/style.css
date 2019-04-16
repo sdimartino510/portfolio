@@ -44,8 +44,17 @@ body {
   font-size: 20px;
 }
 
+.contact {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
 .underline {
   text-decoration: underline;
+  font-size: 20px;
+}
+
+.email {
+  font-size: 30px;
 }
 
 .portrait {

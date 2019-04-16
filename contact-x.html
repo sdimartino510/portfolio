@@ -39,7 +39,7 @@
           <br />
           <hr class="my-2" />
           <p class="lead">
-            My contact information
+            Fill out the form to contact me
           </p>
           <br />
           <div class="header-nav">
@@ -75,32 +75,56 @@
       <br />
       <br />
       <main>
-        <div class="jumbotron contact text-light border">
+        <div class="jumbotron bg-dark text-light border">
           <div class="col-md-12">
-            <p class="underline">
-              E-Mail Address:
-            </p>
-            <br />
-            <p class="email">
-              <a
-                href="mailto:sergio@webdevserg.io?subject=web portfolio"
-                class="badge badge-pill badge-secondary"
-                >sergio@webdevserg.io</a
-              >
-            </p>
-            <br />
-            <br />
-            <p class="underline">
-              Phone Number:
-            </p>
-            <br />
-            <p class="email">
-              <a
-                href="tel:510-459-8943"
-                class="badge badge-pill badge-secondary"
-                >510.459.8943</a
-              >
-            </p>
+            <form>
+              <div class="form-group">
+                <label for="inputName">Name</label>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="inputName"
+                  placeholder="Your name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="inputEmail">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputEmail"
+                  aria-describedby="emailHelp"
+                  placeholder="Your e-mail address"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="inputSubject">Subject</label>
+                <input
+                  type="subject"
+                  class="form-control"
+                  id="inputSubject"
+                  placeholder="Subject of your message"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="inputMessage">Message</label>
+                <textarea
+                  class="form-control"
+                  rows="5"
+                  id="inputMessage"
+                ></textarea>
+              </div>
+              <p>
+                *All fields are required
+              </p>
+              <br />
+              <button type="submit" class="btn btn-outline-light">
+                Submit
+              </button>
+            </form>
           </div>
         </div>
       </main>
@@ -123,8 +147,8 @@
       integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
       crossorigin="anonymous"
     ></script>
-    <!-- <script src="https://www.gstatic.com/firebasejs/5.8.3/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.3/firebase.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src="assets/javascript/script.js" async defer></script> -->
+    <script src="assets/javascript/script.js" async defer></script>
   </body>
 </html>
